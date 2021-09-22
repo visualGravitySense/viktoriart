@@ -7,6 +7,7 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<AboutOne>` | `<about-one>` (components/AboutOne.vue)
+- `<AboutOne1>` | `<about-one1>` (components/AboutOne1.vue)
 - `<AboutTwo>` | `<about-two>` (components/AboutTwo.vue)
 - `<AboutUser>` | `<about-user>` (components/AboutUser.vue)
 - `<AccordionStyleOne>` | `<accordion-style-one>` (components/AccordionStyleOne.vue)
@@ -76,6 +77,7 @@ You can directly use them in pages and other components without the need to impo
 - `<TeamSection>` | `<team-section>` (components/TeamSection.vue)
 - `<TeamSection1>` | `<team-section1>` (components/TeamSection1.vue)
 - `<TestimonialOne>` | `<testimonial-one>` (components/TestimonialOne.vue)
+- `<TestimonialOne1>` | `<testimonial-one1>` (components/TestimonialOne1.vue)
 - `<UserWrapper>` | `<user-wrapper>` (components/UserWrapper.vue)
 - `<WidgetRecentPost>` | `<widget-recent-post>` (components/WidgetRecentPost.vue)
 - `<WidgetSearch>` | `<widget-search>` (components/WidgetSearch.vue)

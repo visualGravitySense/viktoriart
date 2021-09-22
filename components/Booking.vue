@@ -64,8 +64,20 @@
                                         <Events
                                           :notes="notesFilter" :grid="grid" @remove="removeNote"
                                         />
+                                          <h1> {{ title }}</h1>
+                                          <input v-model="name" class="form-control" type="number" >
+                                          <p>{{ name }}</p>
+                                          <input v-model="email" class="form-control" type="email" >
+                                          <p>{{ email }}</p>
+                                          <AppButton @click="reserveEvent">Reserve Event(s)</AppButton>
 
-                                        <!--                                    INPUTS-->
+                                          <p>{{ registerEvent }}</p>
+                                          <AppButton @click="getContent">Buy Event(s)</AppButton>
+
+                                          <div v-if="showContent">
+                                              <p>CONTENT (eCommerce Block)</p>
+                                          </div>
+                                          <!--                                    INPUTS-->
 <!--                                        <input v-model="note.title" class="form-control" type="text" >-->
 <!--                                        <div class="new-event" v-if="message">-->
 <!--                                          <p>{{ message }}</p>-->
@@ -136,27 +148,114 @@ export default {
     Search: () => import('@/components/Search'),
   },
   data() {
-
     return {
+      title: 'Register Your Events',
+      name: '',
+      email: '',
+      order: '',
+      showContent: false,
       headline: 'Booking App',
       titleline: 'Book Your Own Event!',
       paragraphline: 'Or choose from list',
       search: '',
       message: null,
       grid: true,
+      user: {
+        name: 'Jack',
+        email: 'info@gmail.ru'
+      },
       note: {
         title: '',
         excerpt: ''
       },
       notes: [
+          {
+              imgSrc: "/images/blog/b1.jpg",
+              link: "",
+              date: "First Event",
+              excerpt: "Descr for first event",
+              // date: new Date(Date.now()).toLacaleString(),
+              // date: Date.now().toLacaleString(),
+              title: '12',
+              comment: 0,
+              like: 0,
+              author: "Lroosileht",
+              category: "tshirt"
+          },
+          {
+              imgSrc: "/images/blog/b2.jpg",
+              link: "",
+              date: "Second Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "13",
+              comment: 0,
+              like: 0,
+              author: "Inna Tyurikova",
+              category: "frame"
+          },
+          {
+              imgSrc: "/images/blog/b3.jpg",
+              link: "",
+              date: "Third Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "14",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "hoody"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Four Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "15",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Five Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "16",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Four Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "15",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Five Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "16",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
         {
           imgSrc: "/images/blog/b1.jpg",
           link: "",
-          title: "First Event",
+            date: "First Event",
           excerpt: "Descr for first event",
           // date: new Date(Date.now()).toLacaleString(),
           // date: Date.now().toLacaleString(),
-          date: '12.05.2001',
+            title: '12',
           comment: 0,
           like: 0,
           author: "Lroosileht",
@@ -165,9 +264,9 @@ export default {
         {
           imgSrc: "/images/blog/b2.jpg",
           link: "",
-          title: "Second Event",
+            date: "Second Event",
           excerpt: "You can by this print by placing an order by email.",
-          date: "13 July, 2021",
+            title: "13",
           comment: 0,
           like: 0,
           author: "Inna Tyurikova",
@@ -176,9 +275,9 @@ export default {
         {
           imgSrc: "/images/blog/b3.jpg",
           link: "",
-          title: "Third Event",
+            date: "Third Event",
           excerpt: "You can by this print by placing an order by email.",
-          date: "13 July, 2021",
+            title: "14",
           comment: 0,
           like: 0,
           author: "Kangelane",
@@ -187,9 +286,9 @@ export default {
         {
           imgSrc: "/images/blog/b4.jpg",
           link: "",
-          title: "Four Event",
+            date: "Four Event",
           excerpt: "You can by this print by placing an order by email.",
-          date: "13 July, 2021",
+            title: "15",
           comment: 0,
           like: 0,
           author: "Kangelane",
@@ -198,18 +297,122 @@ export default {
         {
           imgSrc: "/images/blog/b4.jpg",
           link: "",
-          title: "Five Event",
+          date: "Five Event",
           excerpt: "You can by this print by placing an order by email.",
-          date: "13 July, 2021",
+            title: "16",
           comment: 0,
           like: 0,
           author: "Kangelane",
           category: "Electronics/Gadget"
         },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Four Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "15",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Five Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "16",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b1.jpg",
+              link: "",
+              date: "First Event",
+              excerpt: "Descr for first event",
+              // date: new Date(Date.now()).toLacaleString(),
+              // date: Date.now().toLacaleString(),
+              title: '12',
+              comment: 0,
+              like: 0,
+              author: "Lroosileht",
+              category: "tshirt"
+          },
+          {
+              imgSrc: "/images/blog/b2.jpg",
+              link: "",
+              date: "Second Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "13",
+              comment: 0,
+              like: 0,
+              author: "Inna Tyurikova",
+              category: "frame"
+          },
+          {
+              imgSrc: "/images/blog/b3.jpg",
+              link: "",
+              date: "Third Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "14",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "hoody"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Four Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "15",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Five Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "16",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Four Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "15",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
+          {
+              imgSrc: "/images/blog/b4.jpg",
+              link: "",
+              date: "Five Event",
+              excerpt: "You can by this print by placing an order by email.",
+              title: "16",
+              comment: 0,
+              like: 0,
+              author: "Kangelane",
+              category: "Electronics/Gadget"
+          },
       ]
     }
   },
   computed: {
+      registerEvent () {
+          return this.order.toUpperCase()
+      },
       notesFilter () {
           let array = this.notes,
               search = this.search
@@ -227,6 +430,16 @@ export default {
       }
   },
   methods: {
+    getContent () {
+        this.showContent = !this.showContent
+        console.log(this.user)
+    },
+    reserveEvent () {
+        this.order = `Hello World Reserve Event For ME by email: ${this.email} I book ${this.name} events!`
+      // console.log("Hello World Reserve Event For ME + ")
+      // console.log(`Hello World Reserve Event For ME by email: ${this.email} I book ${this.name} events!`)
+
+    },
     addNote () {
       // console.log(this.note)
       let {title, excerpt} = this.note

@@ -5,10 +5,10 @@
                 <div class="col-lg-8 col-xl-6 m-auto">
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
                         <h2 class="title">Kangelane It's easy, start now</h2>
-                        <div class="separator-line mt-14">
-                            <img class="me-1" src="/images/shape/line-s2.png" alt="Images">
-                            <img src="/images/shape/line-s1.png" alt="Images">
-                        </div>
+<!--                        <div class="separator-line mt-14">-->
+<!--                            <img class="me-1" src="/images/shape/line-s2.png" alt="Images">-->
+<!--                            <img src="/images/shape/line-s1.png" alt="Images">-->
+<!--                        </div>-->
                         <div class="desc">
                             <p class="mt-21">Kangelane is the easy way to find & showcase creative work and home for the marketers, creators, and developers.</p>
                         </div>
@@ -35,34 +35,37 @@
                 services: [
                     {
                         icon: "/images/icons/s1.png",
+                        link: "artstudio",
                         title: "Web Development",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s2.png",
+                        link: "vacations",
                         title: "Market Analysis",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s3.png",
+                        link: "partys",
                         title: "Brand Identity",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
-                    {
-                        icon: "/images/icons/s4.png",
-                        title: "Business Consultation",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
-                    },
-                    {
-                        icon: "/images/icons/s5.png",
-                        title: "SEO Marketing",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
-                    },
-                    {
-                        icon: "/images/icons/s6.png",
-                        title: "UX & UI Design",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
-                    },
+                    // {
+                    //     icon: "/images/icons/s4.png",
+                    //     title: "Business Consultation",
+                    //     desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                    // },
+                    // {
+                    //     icon: "/images/icons/s5.png",
+                    //     title: "SEO Marketing",
+                    //     desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                    // },
+                    // {
+                    //     icon: "/images/icons/s6.png",
+                    //     title: "UX & UI Design",
+                    //     desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                    // },
                 ]
             }
         },

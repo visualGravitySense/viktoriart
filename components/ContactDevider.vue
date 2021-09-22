@@ -6,7 +6,7 @@
                     <div class="contact-divider-content" data-aos="fade-up" data-aos-duration="1100">
                         <div class="section-title">
                             <div class="subtitle-content">
-                                <img src="/images/shape/line1.png" alt="shape">
+<!--                                <img src="/images/shape/line1.png" alt="shape">-->
                                 <h5>Contact Us.</h5>
                             </div>
                             <h2 class="title">Contact Us For Any Information of <span class="bottom-style">Company.</span></h2>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="layer-shape">
-            <img class="shape-style1" src="/images/shape/15.png" alt="shape">
+<!--            <img class="shape-style1" src="/images/shape/15.png" alt="shape">-->
         </div>
     </section>
 </template>

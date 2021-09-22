@@ -4,12 +4,16 @@
       <div class="note-header" :class="{ full: !grid }" >
         <p>{{ note.title }}</p>
 
-        <p style="cursor: pointer;" @click="removeNote(index)">x</p>
+<!--        <p style="cursor: pointer;" @click="removeNote(index)">x</p>-->
 
+        <span>{{ note.date }}</span>
         <span>{{ note.excerpt }}</span>
       </div>
     </div>
   </div>
+
+
+
 </template>
 
 <script>
@@ -43,10 +47,11 @@ export default {
   padding: 40px 0;
 }
 .note {
-  width: 48%;
-  padding: 18px 20px;
+  width: 13%;
+  height: 150px;
+  padding: 3px 3px;
   margin-bottom: 20px;
-  background-color: #eeeeee;
+  background-color: #f5f5f5;
   transition: all .25s cubic-bezier(.02,.01,.47,1) ;
   box-shadow: 0 30px 30px rgba(0,0,0,.02);
   &:hover {
@@ -55,13 +60,13 @@ export default {
     transition-delay: 0s !important;
   }
   &.full {
-    width: 100%;
+    width: 49%;
     text-align: center;
   }
 }
 .note-header {
-  display: flex;
-  align-items: center;
+  display: wrap;
+  align-items: left;
   justify-content: space-between;
   h1 {
     font-size: 22px;
@@ -92,7 +97,7 @@ export default {
 }
 .note-body {
   p {
-    margin: 20px 0;
+    margin: 5px 0;
   }
   span {
     font-size: 14px;

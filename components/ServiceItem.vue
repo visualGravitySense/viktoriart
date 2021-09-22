@@ -4,12 +4,12 @@
             <img class="icon-img" :src="service.icon" alt="Icon">
         </div>
         <div class="content">
-            <div class="separator-line">
-                <img src="/images/shape/line-s1.png" alt="Image">
-            </div>
+<!--            <div class="separator-line">-->
+<!--                <img src="/images/shape/line-s1.png" alt="Image">-->
+<!--            </div>-->
             <h4>{{ service.title }}</h4>
 <!--            <p>{{ service.desc }}</p>-->
-            <n-link to="" class="btn-link">More Classes <i class="icon icofont-arrow-right"></i></n-link>
+            <n-link :to="service.link" class="btn-link">More Classes <i class="icon icofont-arrow-right"></i></n-link>
         </div>
         <div class="icon-shape">
             <img class="shape-img1" src="/images/shape/s1.png" alt="Icon">

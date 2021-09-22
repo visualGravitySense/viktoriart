@@ -2,6 +2,7 @@
 
   <div class="form-group">
     <input v-model="note.title" class="form-control" type="text" >
+    <input v-model="note.date" class="form-control" type="text" >
     <textarea class="form-control" v-model="note.excerpt" ></textarea>
     <AppButton @click="addNote">New Event</AppButton>
   </div>

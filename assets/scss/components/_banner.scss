@@ -14,7 +14,7 @@
 			display: flex;
 			justify-content: space-between;
 			.content {
-				max-width: 542px;
+				max-width: 100%;
 				@media #{$xl-device} {
 					margin-right: 80px;
 					max-width: 490px;
@@ -641,15 +641,19 @@
 									animation-name: fadeInDown;
 								}
 								h2 {
+									text-align: center;
 									animation-name: fadeInDown;
 								}
 								p {
+									text-align: center;
 									animation-name: fadeIn;
 								}
 								.btn-theme {
+
 									animation-name: fadeIn;
 								}
 								.btn-play {
+									text-align: center;
 									animation-name: fadeIn;
 								}
 							}

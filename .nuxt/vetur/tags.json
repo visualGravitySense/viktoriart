@@ -2,6 +2,9 @@
   "AboutOne": {
     "description": "Auto imported from components/AboutOne.vue"
   },
+  "AboutOne1": {
+    "description": "Auto imported from components/AboutOne1.vue"
+  },
   "AboutTwo": {
     "description": "Auto imported from components/AboutTwo.vue"
   },
@@ -208,6 +211,9 @@
   },
   "TestimonialOne": {
     "description": "Auto imported from components/TestimonialOne.vue"
+  },
+  "TestimonialOne1": {
+    "description": "Auto imported from components/TestimonialOne1.vue"
   },
   "UserWrapper": {
     "description": "Auto imported from components/UserWrapper.vue"

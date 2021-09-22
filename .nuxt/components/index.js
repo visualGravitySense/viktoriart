@@ -1,4 +1,5 @@
 export { default as AboutOne } from '../..\\components\\AboutOne.vue'
+export { default as AboutOne1 } from '../..\\components\\AboutOne1.vue'
 export { default as AboutTwo } from '../..\\components\\AboutTwo.vue'
 export { default as AboutUser } from '../..\\components\\AboutUser.vue'
 export { default as AccordionStyleOne } from '../..\\components\\AccordionStyleOne.vue'
@@ -68,6 +69,7 @@ export { default as ShapeWithAnimation } from '../..\\components\\ShapeWithAnima
 export { default as TeamSection } from '../..\\components\\TeamSection.vue'
 export { default as TeamSection1 } from '../..\\components\\TeamSection1.vue'
 export { default as TestimonialOne } from '../..\\components\\TestimonialOne.vue'
+export { default as TestimonialOne1 } from '../..\\components\\TestimonialOne1.vue'
 export { default as UserWrapper } from '../..\\components\\UserWrapper.vue'
 export { default as WidgetRecentPost } from '../..\\components\\WidgetRecentPost.vue'
 export { default as WidgetSearch } from '../..\\components\\WidgetSearch.vue'

@@ -16,15 +16,15 @@
 
         <HeroSlider />
 
-        <AboutOne />
+        <AboutOne1 />
 
-        <ServiceOne />
+        <ServiceOne1 />
 
-        <FaqOne />
+<!--        <FaqOne />-->
 
-        <LectorsSection class="team-default-area" />
+<!--        <LectorsSection class="team-default-area" />-->
 
-
+        <TestimonialOne1 />
 
 <!--        <PortfolioSection />-->
 <!--        <TestimonialOne />-->
@@ -51,14 +51,14 @@
             Header: () => import('@/components/Header'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             HeroSlider: () => import('@/components/HeroSlider'),
-            AboutOne: () => import('@/components/AboutOne'),
+            AboutOne1: () => import('@/components/AboutOne1'),
             AboutTwo: () => import('@/components/AboutTwo'),
             FunFactOne: () => import('@/components/FunFactOne'),
-            ServiceOne: () => import('@/components/ServiceOne'),
+            ServiceOne1: () => import('@/components/ServiceOne1'),
             FaqOne: () => import('@/components/FaqOne'),
             LectorsSection: () => import('@/components/LectorsSection'),
             PortfolioSection: () => import('@/components/PortfolioSection'),
-            TestimonialOne: () => import('@/components/TestimonialOne'),
+            TestimonialOne1: () => import('@/components/TestimonialOne1'),
             BrandLogoSection: () => import('@/components/BrandLogoSection'),
             BlogSection: () => import('@/components/BlogSection'),
             ContactDevider: () => import('@/components/ContactDevider'),

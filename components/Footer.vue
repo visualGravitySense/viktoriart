@@ -11,7 +11,7 @@
                                 </div>
                                 <div class="content">
                                     <h4>Call Us.</h4>
-                                    <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
+<!--                                    <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">-->
                                     <a href="tel:0037258976398">+372 5897 6398</a>
 <!--                                    <a href="tel://0123456789">0123456789</a>-->
                                 </div>
@@ -22,7 +22,7 @@
                                 </div>
                                 <div class="content">
                                     <h4>Email.</h4>
-                                    <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
+<!--                                    <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">-->
                                     <a href="mailto://kangelane@deepfatsnail.eu">kangelane@deepfatsnail.eu</a>
 <!--                                    <a href="mailto://demo@gmail.com">demo@gmail.com</a>-->
                                 </div>
@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="content">
                                     <h4>Location.</h4>
-                                    <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
+<!--                                    <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">-->
                                     <p>Pae 21, Tallinn <br>Estonia</p>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                 <div class="col-md-4 col-lg-2 col-xl-2 lg-pr-0">
                     <div class="widget-item menu-wrap-column">
                         <h4 class="widget-title">О нас</h4>
-                        <img class="line-shape" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">
+<!--                        <img class="line-shape" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">-->
                         <nav class="widget-menu-wrap">
                             <ul class="nav-menu nav">
                                 <li><n-link to="/">Главная</n-link></li>
@@ -123,7 +123,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 order-2 order-md-1">
                             <div class="widget-copyright">
-                                <p>© 2021 <span>KANGELANE</span> Made with <i class="icofont-heart"></i> by <a href="#">Kangelane</a></p>
+                                <p>© 2021 <span>Viktoria Art</span></p>
                             </div>
                         </div>
                         <div class="col-md-6 order-1 order-md-2">
