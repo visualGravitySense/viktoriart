@@ -1,0 +1,61 @@
+/*
+-----------------------------------------------------------------------
+	Feature CSS
+-----------------------------------------------------------------------
+*/
+.feature-area {
+    &.feature-about-area {
+        background-color: #f6f7fc;
+        padding: 57px 0;
+        @media #{$md-device} {
+            padding: 60px 0 48px;
+        }
+    }
+}
+
+.feature-list {
+    .feature-list-item {
+        background-color: $white;
+        border-radius: 12px;
+        color: $theme-color3;
+        display: block;
+        font-size: 25px;
+        font-weight: $font-weight-bold;
+        padding: 11px 17px 14px;
+        position: relative;
+        @include transition(0.3s);
+        @media #{$lg-device} {
+            font-size: 20px;
+        }
+        @media #{$md-device} {
+            margin-bottom: 12px;
+        }
+        .icon {
+            background-color: #def5e8;
+            border-radius: 12px;
+            color: $theme-color;
+            display: inline-block;
+            font-size: 25px;
+            height: 60px;
+            line-height: 60px;
+            margin-right: 23px;
+            position: relative;
+            text-align: center;
+            top: 2px;
+            width: 60px;
+            @include transition(0.3s);
+            img {
+                width: auto;
+                @include transition(0.3s);
+            }
+        }
+        &:hover {
+            background-color: $theme-color;
+            color: $white;
+            .icon {
+                background-color: $white;
+                color: $theme-color;
+            }
+        }
+    }
+}

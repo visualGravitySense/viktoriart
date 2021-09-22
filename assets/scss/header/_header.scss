@@ -1,0 +1,407 @@
+/*
+-----------------------------------------------------------------------
+  Header CSS
+-----------------------------------------------------------------------
+*/
+
+.header-area {
+    padding: 50px 0;
+
+    // Header Default
+    &.header-default {
+        background-color: $white;
+        padding: 43px 175px 42px;
+        position: relative;
+        z-index: 99;
+        @media (max-width: 1799px) {
+            padding: 43px 150px 42px;
+        }
+        @media (max-width: 1279px) {
+            padding: 43px 100px 42px;
+        }
+        @media #{$lg-device} {
+            padding: 43px 100px 42px;
+        }
+        @media #{$md-device} {
+            padding: 25px 50px 20px;
+        }
+        @media #{$sm-device} {
+            padding: 20px 0;
+        }
+
+        .container {
+            @media (min-width: 1800px) {
+                max-width: 1456px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            @media (max-width: 1799px) {
+                max-width: 1200px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            @media #{$lg-device} {
+                max-width: 960px;
+            }
+            @media #{$md-device} {
+                max-width: 720px;
+            }
+            @media #{$sm-device} {
+                max-width: 540px;
+            }
+        }
+        .header-align {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+
+            .header-navigation-area {
+                @media #{$lg-device} {
+                    display: none;
+                }
+                .main-menu {
+                    & > li {
+                        margin-right: 0;
+                        &:first-child {
+                            & > a {
+                                padding-left: 0;
+                            }
+                        }
+                        &:last-child {
+                            margin-right: 0;
+                            & > a {
+                                padding-right: 0;
+                            }
+                        }
+                        & > a {
+                            padding: 7px 22px;
+                            @media (max-width: 1499px) {
+                                padding: 7px 15px;
+                            }
+                        }
+                        &.has-submenu {
+                            & > a {
+                                &:before {
+                                    display: none;
+                                }
+                            }
+                            .submenu-nav {
+                                background-color: $white;
+                                border: none;
+                                border-radius: 0 0 5px 5px;
+                                box-shadow: 0px 20px 80px 0px rgba(171, 181, 189, 0.35);
+                                left: -10px;
+                                margin-top: 25px;
+                                min-width: 195px;
+                                &:before {
+                                    height: 45px;
+                                }
+                                & > li {
+                                    a {
+                                        color: $black-0e;
+                                        &:hover {
+                                            color: $theme-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .header-action-area {
+                margin-left: 15px;
+                position: relative;
+                .btn-theme {
+                    margin-left: 121px;
+                    @media (max-width: 1799px) {
+                        margin-left: 15px;
+                    }
+                    @media #{$xl-device} {
+                        margin-left: 10px;
+                    }
+                    @media #{$xs-device} {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &.sticky-header {
+            &.is-sticky {
+                animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+                background-color: $white;
+                box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+                left: 0;
+                top: 0;
+                position: fixed;
+                padding: 15px 0;
+                width: 100%;
+                z-index: 99;
+                .container {
+                    @media #{$xs-device} {
+                        max-width: none;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                    }
+                }
+                .header-logo-area {
+                    .logo {
+                        &-main {
+                            display: none;
+                        }
+                        &-light {
+                            display: block;
+                        }
+                    }
+                }
+                .header-align {
+                    .header-navigation-area {
+                        .main-menu {
+                            & > li {
+                                &:after {
+                                    top: 63px;
+                                }
+                                & > a {
+                                    color: $black-0e;
+                                    &:hover {
+                                        background-color: transparent;
+                                        color: $theme-color;
+                                    }
+                                }
+                                &:hover > {
+                                    a {
+                                        color: $theme-color;
+                                        background-color: transparent;
+                                        &:after {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &.has-submenu {
+                                    & > a {
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                    & > .submenu-nav {
+                                        margin-top: 26px;
+                                        &:before {
+                                            height: 44px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .header-action-area {
+                        .btn-menu {
+                            span {
+                                background-color: $black-0e;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.transparent {
+            background-color: transparent;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: 9;
+            .header-align {
+                .header-navigation-area {
+                    .main-menu {
+                        & > li {
+                            margin-right: 23.4px;
+                            position: relative;
+                            @media (max-width: 1799px) {
+                                margin-right: 7px;
+                            }
+                            &:after {
+                                content: "";
+                                height: 0;
+                                left: 0;
+                                position: absolute;
+                                top: 55px;
+                                width: 100%;
+                                @include transition(0.3s);
+                            }
+
+                            &:first-child {
+                                margin-left: 0;
+                                & > a {
+                                    padding: 7px 22.07px;
+                                    @media (max-width: 1499px) {
+                                        padding: 7px 15px;
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                margin-right: 0;
+                                & > a {
+                                    padding: 7px 22.07px;
+                                    @media (max-width: 1499px) {
+                                        padding: 7px 15px;
+                                    }
+                                }
+                            }
+
+                            & > a {
+                                color: $white;
+                                position: relative;
+                                z-index: 1;
+                                &:after {
+                                    content: "";
+                                    height: 0;
+                                    left: 0;
+                                    pointer-events: none;
+                                    position: absolute;
+                                    top: -63px;
+                                    width: 100%;
+                                    z-index: -1;
+                                    @include transition(0.3s);
+                                }
+                            }
+                            &:hover,
+                            &.active {
+                                &:after {
+                                    background-color: $theme-color2;
+                                    height: 5px;
+                                }
+                                & > a {
+                                    background-color: transparent;
+                                    color: $white;
+                                    &:after {
+                                        background-color: $theme-color3;
+                                        height: 108px;
+                                    }
+                                }
+                            }
+                            &.has-submenu {
+                                & > a {
+                                    &:before {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Logo Style
+.header-logo-area {
+    max-width: 180px;
+    @media #{$md-device} {
+        max-width: 150px;
+    }
+    @media #{$sm-device} {
+        max-width: 130px;
+    }
+    .logo {
+        &-light {
+            display: none;
+        }
+    }
+}
+
+// Header Action Style
+.header-action-area {
+    .btn-menu {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        height: 18px;
+        margin-left: 16px;
+        position: relative;
+        width: 35px;
+        span {
+            background-color: $theme-color2;
+            border-radius: 2px;
+            display: block;
+            height: 3px;
+            position: absolute;
+            right: 0;
+            transition: 0.4s;
+            width: 100%;
+
+            &:first-child {
+                top: 0;
+                width: 30px;
+            }
+
+            &:nth-child(2) {
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+            }
+
+            &:last-child {
+                bottom: 0;
+                width: 25px;
+            }
+        }
+
+        &:hover {
+            span {
+                background-color: $theme-color;
+                &:first-child,
+                &:last-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .btn-theme {
+        &.btn-style {
+            background-color: $theme-color;
+            border-radius: 32.5px;
+            color: $white;
+            padding: 6px 9px 8px 31px;
+            @media #{$xl-device} {
+                padding: 7px 9px 7px 20px;
+            }
+            @media #{$sm-device} {
+                font-size: 14px;
+                padding: 5px 9px 7px 16px;
+            }
+            .icon-style {
+                background-color: $white;
+                border-radius: 50%;
+                color: $theme-color2;
+                display: inline-block;
+                font-size: 18px;
+                height: 50px;
+                line-height: 50px;
+                margin-left: 18px;
+                width: 50px;
+                @media #{$xl-device} {
+                    height: 35px;
+                    line-height: 35px;
+                    margin-left: 5px;
+                    width: 35px;
+                }
+                @media #{$sm-device} {
+                    height: 30px;
+                    line-height: 30px;
+                    width: 30px;
+                    margin-left: 9px;
+                }
+            }
+            &:hover {
+                background-color: $theme-color2;
+            }
+        }
+    }
+}
+

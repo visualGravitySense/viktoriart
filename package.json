@@ -1,0 +1,33 @@
+{
+    "name": "viktoria",
+    "version": "1.0.0",
+    "author": "Visual Sense",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/style-resources": "^1.0.0",
+        "aos": "^2.3.4",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.5.2",
+        "bootstrap-vue": "^2.16.0",
+        "core-js": "^3.6.5",
+        "mixitup": "^3.3.1",
+        "nuxt": "^2.14.5",
+        "parallax-js": "^3.1.0",
+        "swiper": "^5.3.7",
+        "vue-awesome-swiper": "^4.1.0",
+        "vue-backtotop": "^1.6.1",
+        "vue-cool-lightbox": "^2.7.1",
+        "vue-count-to": "^1.0.13"
+    },
+    "devDependencies": {
+        "sass": "^1.26.11",
+        "sass-loader": "^10.0.2",
+        "webpack": "^4.44.2"
+    }
+}

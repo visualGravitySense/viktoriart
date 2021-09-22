@@ -1,0 +1,254 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_1d8f44e0"
+  },
+  {
+    "name": "artstudio",
+    "path": "/artstudio",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\artstudio.vue",
+    "chunkName": "pages/artstudio",
+    "_name": "_3a1ac47c"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_66fd41ef"
+  },
+  {
+    "name": "blog-details",
+    "path": "/blog-details",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\blog-details.vue",
+    "chunkName": "pages/blog-details",
+    "_name": "_c1a7e438"
+  },
+  {
+    "name": "chalenges",
+    "path": "/chalenges",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\chalenges\\\\index.vue",
+    "chunkName": "pages/chalenges/index",
+    "_name": "_274fbde3"
+  },
+  {
+    "name": "classes",
+    "path": "/classes",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\classes\\\\index.vue",
+    "chunkName": "pages/classes/index",
+    "_name": "_c148850e"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_f1d7e43a"
+  },
+  {
+    "name": "course",
+    "path": "/course",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\course\\\\index.vue",
+    "chunkName": "pages/course/index",
+    "_name": "_165f92da"
+  },
+  {
+    "name": "course-1",
+    "path": "/course-1",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\course-1.vue",
+    "chunkName": "pages/course-1",
+    "_name": "_1f6a044c"
+  },
+  {
+    "name": "course-2",
+    "path": "/course-2",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\course-2.vue",
+    "chunkName": "pages/course-2",
+    "_name": "_1f781bcd"
+  },
+  {
+    "name": "course-3",
+    "path": "/course-3",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\course-3.vue",
+    "chunkName": "pages/course-3",
+    "_name": "_1f86334e"
+  },
+  {
+    "name": "course-4",
+    "path": "/course-4",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\course-4.vue",
+    "chunkName": "pages/course-4",
+    "_name": "_1f944acf"
+  },
+  {
+    "name": "creators",
+    "path": "/creators",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\creators.vue",
+    "chunkName": "pages/creators",
+    "_name": "_9994c9d8"
+  },
+  {
+    "name": "hire",
+    "path": "/hire",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\hire\\\\index.vue",
+    "chunkName": "pages/hire/index",
+    "_name": "_e3f87dbe"
+  },
+  {
+    "name": "job-details",
+    "path": "/job-details",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\job-details.vue",
+    "chunkName": "pages/job-details",
+    "_name": "_60476775"
+  },
+  {
+    "name": "jobs",
+    "path": "/jobs",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\jobs\\\\index.vue",
+    "chunkName": "pages/jobs/index",
+    "_name": "_1073f27f"
+  },
+  {
+    "name": "market",
+    "path": "/market",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\market\\\\index.vue",
+    "chunkName": "pages/market/index",
+    "_name": "_14a3b019"
+  },
+  {
+    "name": "partys",
+    "path": "/partys",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\partys.vue",
+    "chunkName": "pages/partys",
+    "_name": "_00cdadda"
+  },
+  {
+    "name": "prints",
+    "path": "/prints",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\prints\\\\index.vue",
+    "chunkName": "pages/prints/index",
+    "_name": "_702f62af"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\profile\\\\index.vue",
+    "chunkName": "pages/profile/index",
+    "_name": "_e86d27d4"
+  },
+  {
+    "name": "project",
+    "path": "/project",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\project.vue",
+    "chunkName": "pages/project",
+    "_name": "_4c9f105c"
+  },
+  {
+    "name": "project-details",
+    "path": "/project-details",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\project-details.vue",
+    "chunkName": "pages/project-details",
+    "_name": "_f379c15e"
+  },
+  {
+    "name": "service-details",
+    "path": "/service-details",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\service-details.vue",
+    "chunkName": "pages/service-details",
+    "_name": "_3323de26"
+  },
+  {
+    "name": "shop",
+    "path": "/shop",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\shop\\\\index.vue",
+    "chunkName": "pages/shop/index",
+    "_name": "_11ac8fdf"
+  },
+  {
+    "name": "stock",
+    "path": "/stock",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\stock\\\\index.vue",
+    "chunkName": "pages/stock/index",
+    "_name": "_214a61c9"
+  },
+  {
+    "name": "uidesign",
+    "path": "/uidesign",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\uidesign\\\\index.vue",
+    "chunkName": "pages/uidesign/index",
+    "_name": "_648fba83"
+  },
+  {
+    "name": "urm",
+    "path": "/urm",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\urm\\\\index.vue",
+    "chunkName": "pages/urm/index",
+    "_name": "_3740606f"
+  },
+  {
+    "name": "vacations",
+    "path": "/vacations",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\vacations.vue",
+    "chunkName": "pages/vacations",
+    "_name": "_b068ed8e"
+  },
+  {
+    "name": "classes-careers",
+    "path": "/classes/careers",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\classes\\\\careers.vue",
+    "chunkName": "pages/classes/careers",
+    "_name": "_169b67c8"
+  },
+  {
+    "name": "jobs-github",
+    "path": "/jobs/github",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\jobs\\\\github\\\\index.vue",
+    "chunkName": "pages/jobs/github/index",
+    "_name": "_fd28cb88"
+  },
+  {
+    "name": "classes-id",
+    "path": "/classes/:id",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\classes\\\\_id\\\\index.vue",
+    "chunkName": "pages/classes/_id/index",
+    "_name": "_14c51341"
+  },
+  {
+    "name": "jobs-id",
+    "path": "/jobs/:id",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\jobs\\\\_id\\\\index.vue",
+    "chunkName": "pages/jobs/_id/index",
+    "_name": "_0dc311fb"
+  },
+  {
+    "name": "market-id",
+    "path": "/market/:id",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\market\\\\_id\\\\index.vue",
+    "chunkName": "pages/market/_id/index",
+    "_name": "_4ca876be"
+  },
+  {
+    "name": "prints-id",
+    "path": "/prints/:id",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\prints\\\\_id\\\\index.vue",
+    "chunkName": "pages/prints/_id/index",
+    "_name": "_88d3806a"
+  },
+  {
+    "name": "stock-id",
+    "path": "/stock/:id",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\stock\\\\_id\\\\index.vue",
+    "chunkName": "pages/stock/_id/index",
+    "_name": "_0a3ebe1e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Viktoria\\\\virtuf\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_10f03855"
+  }
+]

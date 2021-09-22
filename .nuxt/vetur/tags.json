@@ -1,0 +1,281 @@
+{
+  "AboutOne": {
+    "description": "Auto imported from components/AboutOne.vue"
+  },
+  "AboutTwo": {
+    "description": "Auto imported from components/AboutTwo.vue"
+  },
+  "AboutUser": {
+    "description": "Auto imported from components/AboutUser.vue"
+  },
+  "AccordionStyleOne": {
+    "description": "Auto imported from components/AccordionStyleOne.vue"
+  },
+  "AdminNavigation": {
+    "description": "Auto imported from components/AdminNavigation.vue"
+  },
+  "ApplyJob": {
+    "description": "Auto imported from components/ApplyJob.vue"
+  },
+  "BlogDetailsWrapper": {
+    "description": "Auto imported from components/BlogDetailsWrapper.vue"
+  },
+  "BlogSection": {
+    "description": "Auto imported from components/BlogSection.vue"
+  },
+  "BlogWrapper": {
+    "description": "Auto imported from components/BlogWrapper.vue"
+  },
+  "Booking": {
+    "description": "Auto imported from components/Booking.vue"
+  },
+  "BrandLogoSection": {
+    "description": "Auto imported from components/BrandLogoSection.vue"
+  },
+  "Careers": {
+    "description": "Auto imported from components/Careers.vue"
+  },
+  "CommentForm": {
+    "description": "Auto imported from components/CommentForm.vue"
+  },
+  "CommentList": {
+    "description": "Auto imported from components/CommentList.vue"
+  },
+  "Comments": {
+    "description": "Auto imported from components/Comments.vue"
+  },
+  "ContactDevider": {
+    "description": "Auto imported from components/ContactDevider.vue"
+  },
+  "ContactWrapper": {
+    "description": "Auto imported from components/ContactWrapper.vue"
+  },
+  "CourseDetailsWrapper1": {
+    "description": "Auto imported from components/CourseDetailsWrapper1.vue"
+  },
+  "CourseDetailsWrapper2": {
+    "description": "Auto imported from components/CourseDetailsWrapper2.vue"
+  },
+  "CourseDetailsWrapper3": {
+    "description": "Auto imported from components/CourseDetailsWrapper3.vue"
+  },
+  "CourseDetailsWrapper4": {
+    "description": "Auto imported from components/CourseDetailsWrapper4.vue"
+  },
+  "DesignDetailsWrapper": {
+    "description": "Auto imported from components/DesignDetailsWrapper.vue"
+  },
+  "Events": {
+    "description": "Auto imported from components/Events.vue"
+  },
+  "FaqOne": {
+    "description": "Auto imported from components/FaqOne.vue"
+  },
+  "FeatureList": {
+    "description": "Auto imported from components/FeatureList.vue"
+  },
+  "FilterTags": {
+    "description": "Auto imported from components/FilterTags.vue"
+  },
+  "FilterWorks": {
+    "description": "Auto imported from components/FilterWorks.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "FooterTwo": {
+    "description": "Auto imported from components/FooterTwo.vue"
+  },
+  "FunFactOne": {
+    "description": "Auto imported from components/FunFactOne.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "HeaderAdmin": {
+    "description": "Auto imported from components/HeaderAdmin.vue"
+  },
+  "HeroSlider": {
+    "description": "Auto imported from components/HeroSlider.vue"
+  },
+  "HiringForm": {
+    "description": "Auto imported from components/HiringForm.vue"
+  },
+  "Job": {
+    "description": "Auto imported from components/Job.vue"
+  },
+  "JobsForm": {
+    "description": "Auto imported from components/JobsForm.vue"
+  },
+  "JobsWrapper": {
+    "description": "Auto imported from components/JobsWrapper.vue"
+  },
+  "LectorsSection": {
+    "description": "Auto imported from components/LectorsSection.vue"
+  },
+  "Message": {
+    "description": "Auto imported from components/Message.vue"
+  },
+  "MobileNavigation": {
+    "description": "Auto imported from components/MobileNavigation.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "NewEvent": {
+    "description": "Auto imported from components/NewEvent.vue"
+  },
+  "NewPostForm": {
+    "description": "Auto imported from components/NewPostForm.vue"
+  },
+  "OffCanvasMobileMenu": {
+    "description": "Auto imported from components/OffCanvasMobileMenu.vue"
+  },
+  "PageTitle": {
+    "description": "Auto imported from components/PageTitle.vue"
+  },
+  "PageTitleClasses": {
+    "description": "Auto imported from components/PageTitleClasses.vue"
+  },
+  "PageTitleMarket": {
+    "description": "Auto imported from components/PageTitleMarket.vue"
+  },
+  "PageTitleUser": {
+    "description": "Auto imported from components/PageTitleUser.vue"
+  },
+  "Pagination": {
+    "description": "Auto imported from components/Pagination.vue"
+  },
+  "PortfolioDetailsWrapper": {
+    "description": "Auto imported from components/PortfolioDetailsWrapper.vue"
+  },
+  "PortfolioSection": {
+    "description": "Auto imported from components/PortfolioSection.vue"
+  },
+  "PortfolioWrapper": {
+    "description": "Auto imported from components/PortfolioWrapper.vue"
+  },
+  "PortfolioWrapperClasses": {
+    "description": "Auto imported from components/PortfolioWrapperClasses.vue"
+  },
+  "PortfolioWrapperMarket": {
+    "description": "Auto imported from components/PortfolioWrapperMarket.vue"
+  },
+  "PortfolioWrapperStock": {
+    "description": "Auto imported from components/PortfolioWrapperStock.vue"
+  },
+  "PostAuthorInfo": {
+    "description": "Auto imported from components/PostAuthorInfo.vue"
+  },
+  "PostAuthorInfoSv": {
+    "description": "Auto imported from components/PostAuthorInfoSv.vue"
+  },
+  "Product": {
+    "description": "Auto imported from components/Product.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  },
+  "ServiceCategoryGoals": {
+    "description": "Auto imported from components/ServiceCategoryGoals.vue"
+  },
+  "ServiceCategoryWidget": {
+    "description": "Auto imported from components/ServiceCategoryWidget.vue"
+  },
+  "ServiceDetailsWrapper": {
+    "description": "Auto imported from components/ServiceDetailsWrapper.vue"
+  },
+  "ServiceItem": {
+    "description": "Auto imported from components/ServiceItem.vue"
+  },
+  "ServiceOne": {
+    "description": "Auto imported from components/ServiceOne.vue"
+  },
+  "ServiceOne1": {
+    "description": "Auto imported from components/ServiceOne1.vue"
+  },
+  "ServiceWrapper": {
+    "description": "Auto imported from components/ServiceWrapper.vue"
+  },
+  "ShapeWithAnimation": {
+    "description": "Auto imported from components/ShapeWithAnimation.vue"
+  },
+  "TeamSection": {
+    "description": "Auto imported from components/TeamSection.vue"
+  },
+  "TeamSection1": {
+    "description": "Auto imported from components/TeamSection1.vue"
+  },
+  "TestimonialOne": {
+    "description": "Auto imported from components/TestimonialOne.vue"
+  },
+  "UserWrapper": {
+    "description": "Auto imported from components/UserWrapper.vue"
+  },
+  "WidgetRecentPost": {
+    "description": "Auto imported from components/WidgetRecentPost.vue"
+  },
+  "WidgetSearch": {
+    "description": "Auto imported from components/WidgetSearch.vue"
+  },
+  "WidgetSocial": {
+    "description": "Auto imported from components/WidgetSocial.vue"
+  },
+  "WidgetSocialUser": {
+    "description": "Auto imported from components/WidgetSocialUser.vue"
+  },
+  "WidgetTags": {
+    "description": "Auto imported from components/WidgetTags.vue"
+  },
+  "WidgetVideo": {
+    "description": "Auto imported from components/WidgetVideo.vue"
+  },
+  "AdminCommentTable": {
+    "description": "Auto imported from components/Admin/CommentTable.vue"
+  },
+  "AdminContracts": {
+    "description": "Auto imported from components/Admin/Contracts.vue"
+  },
+  "ChalengesWrapper": {
+    "description": "Auto imported from components/Chalenges/ChalengesWrapper.vue"
+  },
+  "ChalengesCourseWrapper2": {
+    "description": "Auto imported from components/Chalenges/CourseWrapper2.vue"
+  },
+  "ChalengesCourseWrapperUser": {
+    "description": "Auto imported from components/Chalenges/CourseWrapperUser.vue"
+  },
+  "CoursesCourseWrapper": {
+    "description": "Auto imported from components/Courses/CourseWrapper.vue"
+  },
+  "CoursesCourseWrapper2": {
+    "description": "Auto imported from components/Courses/CourseWrapper2.vue"
+  },
+  "CoursesCourseWrapperUser": {
+    "description": "Auto imported from components/Courses/CourseWrapperUser.vue"
+  },
+  "JobsPreview": {
+    "description": "Auto imported from components/Jobs/JobsPreview.vue"
+  },
+  "MarketNewProduct": {
+    "description": "Auto imported from components/Market/NewProduct.vue"
+  },
+  "MarketProducts": {
+    "description": "Auto imported from components/Market/Products.vue"
+  },
+  "Prints": {
+    "description": "Auto imported from components/Prints/Prints.vue"
+  },
+  "UIMessage": {
+    "description": "Auto imported from components/UI/Message.vue"
+  },
+  "UIControlsButton": {
+    "description": "Auto imported from components/UI/Controls/Button.vue"
+  },
+  "UIControlsInput": {
+    "description": "Auto imported from components/UI/Controls/Input.vue"
+  },
+  "UIControlsTextArea": {
+    "description": "Auto imported from components/UI/Controls/TextArea.vue"
+  }
+}
